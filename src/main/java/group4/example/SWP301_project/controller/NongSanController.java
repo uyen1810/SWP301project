@@ -15,7 +15,7 @@ public class NongSanController {
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("dsNongSan", nongSanService.findAll());
-
+        return "index";
     }
 }
 
