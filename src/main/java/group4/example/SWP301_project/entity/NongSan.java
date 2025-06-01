@@ -13,8 +13,7 @@ public class NongSan {
     private Long id;
 
     private String ten;
-    private String loai;
-    private double gia;
+
 
     // Getters/Setters
 }
